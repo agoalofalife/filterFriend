@@ -1,0 +1,123 @@
+body {
+    background-color : #9B999B;
+}
+.block{
+    margin : 100px 260px;
+    z-index: 1;
+}
+
+.header {
+    color: #FFFFFF;
+    padding: 5px;
+    background-color: #ED806B;
+}
+.search {
+    background-color: #EAE8EA;
+    height: 50px;
+    vertical-align: middle;
+    padding : 5px 0px;
+}
+.search input {
+    border-radius: 20px;
+    padding: 6px 50px;
+    /*background: url('./images/search.png') no-repeat 8px 6px;*/
+}
+
+.friends-block {
+    height: 400px;
+    background-color : #FFFFFF;
+}
+
+.friends-save{
+    background-color: #EAE8EA;
+    height: 50px;
+    vertical-align: middle;
+    padding : 10px 0px;
+}
+.friends-save button{
+    margin-right: 10px;
+}
+.save{
+    border-radius: 20px;
+}
+.img-circle{
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+    width: 50px;
+}
+.name{
+    padding-left: 40px;
+    padding-top: 20px;
+    float: left;
+
+
+}
+.friends-list {
+
+    padding: 10px 0px;
+}
+.friends-item {
+    height: 65px;
+
+}
+#just-friend{
+    width:290px;
+    height:350px;
+    overflow: auto;
+}
+
+#best-friend{
+    width:290px;
+    height:350px;
+    overflow: auto;
+
+}
+.znak {
+    padding-top:15px;
+}
+
+
+/*input:focus {outline: none}*/
+
+#just-friend .glyphicon:after {
+    content: "\2b";
+
+}
+#best-friend .glyphicon:after {
+    content: "\e014";
+}
+
+
+::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+}
+::-webkit-scrollbar-button {
+    width: 10px;
+    height: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: #e1e1e1;
+    border: 6px none #ffffff;
+    border-radius: 37px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #ffffff;
+}
+::-webkit-scrollbar-thumb:active {
+    background: #000000;
+}
+::-webkit-scrollbar-track {
+    background: #666666;
+    border: 8px none #ffffff;
+    border-radius: 0px;
+}
+::-webkit-scrollbar-track:hover {
+    background: #666666;
+}
+::-webkit-scrollbar-track:active {
+    background: #333333;
+}
+::-webkit-scrollbar-corner {
+    background: transparent;
+}
